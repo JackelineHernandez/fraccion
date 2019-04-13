@@ -1,0 +1,203 @@
+.header{
+    background-image: none;
+    background-color:#0B3861 !important;
+    padding: 0;
+    font-family: Gotham-Bold;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    color: white;
+    min-height: 1rem !important;
+  }
+
+  .logo{
+    background-image: url("../images/FraccionLogoNegativo.png");
+    background-color: #0B3861 !important;
+}
+
+.comoFuncionaTittle{
+    min-height: 7rem;
+    font-family: Gotham-Bold;
+    color: #003a5d;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.paddingLeft{
+  padding-left: 1.5rem;
+}
+
+
+.paddingRight{
+  padding-right: 1.5rem;
+}
+
+
+.paddingFile
+{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+.span1{
+	font-family: Gotham-Bold;
+  color: #249fe9;
+	font-size: 2.5rem;
+	margin-left: 5rem;
+}
+
+
+.span2, .span3{
+	font-family: Gotham-Light;
+  color: #003a5d;
+	font-size: 1.5rem;
+	margin-top: 1rem;
+	margin-left: 5rem;
+}
+
+.oval{
+	border: 3px solid #003a5d;
+	background-color: #ffbf00;
+	color: #003a5d;
+	padding: 0 1.2rem 0 1.2rem;
+	border-radius: 50%;
+	font-family: Gotham-Bold;
+	font-size: 2.2rem;
+}
+	
+.bloque1{
+	background: #F5F5F5;
+	padding-bottom: 23rem;
+}
+
+.bloque1Logo{
+	background-image: url("../svg/bloque1.svg");
+	background-repeat: no-repeat;
+	background-position-y: 105px;
+	background-size: 600px;
+	min-height: 18rem;
+	position:relative; 
+	left: -478px;
+	top: 250px;
+}
+
+
+.bloque1Text{
+	margin-left: 58px;
+	padding-right: 9.5rem;
+}
+
+.bloque1Derecha{
+	background-image: url("../images/comoFunciona1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+  min-height: 41rem;
+    
+}
+
+.bloque2{
+	padding-bottom: 28rem;
+}
+
+.bloque2Logo{
+	background-image: url("../svg/bloque2.svg");
+	background-repeat: no-repeat;
+	background-position-y: 90px;
+	background-size: 570px;
+	min-height: 20rem;
+	position:relative; 
+	left: -478px;
+	top: 20px;
+}
+
+.bloque2Text{
+	margin-left: 90px;
+	padding-right: 9.5rem;
+}
+
+.bloque2Derecha{
+	background-image: url("../images/comoFunciona2.jpg");
+	background-repeat: no-repeat;
+	background-position: 70% 50%;
+	background-size: cover;
+  min-height: 28rem;
+}
+
+.bloque3{
+	background: #F5F5F5;
+	padding-bottom: 25rem;
+}
+
+.bloque3Logo{
+	background-image: url("../svg/bloque3.svg");
+	background-repeat: no-repeat;
+	background-size: 571px;
+	min-height: 20rem;
+	position:relative; 
+	left: -478px;
+	top: 60px;
+}
+
+.bloque3Text{
+	margin-left: 130px;
+	padding-top: 30px; 
+	padding-right: 9.5rem;
+}
+
+.bloque3Derecha{
+	background-image: url("../images/comoFunciona3.jpg");
+	background-repeat: no-repeat;
+	background-position: 70% 50%;
+	background-size: cover;
+  min-height: 26rem;
+    
+}
+
+
+
+.bloque4{
+	margin-left: 110px;
+	padding-bottom: 25rem;
+}
+
+.bloque4Logo{
+	background-image: url("../svg/bloque4.svg");
+	background-repeat: no-repeat;
+	background-position-y: 160px;
+	background-size: 600px;
+	min-height: 25rem;
+	position:relative; 
+	left: -458px;
+	top: 60px;
+}
+
+.bloque4Text{
+	padding-top: 30px; 
+	padding-right: 12rem;
+}
+
+.span3{
+	margin-left: 12rem;
+}
+.bloque4Derecha{
+	background-image: url("../images/comoFunciona4.jpg");
+	background-repeat: no-repeat;
+	background-position: 70% 50%;
+	background-size: cover;
+  min-height: 30rem;
+    
+}
+
+
+@media (min-width: 992px) {
+    
+	.paddingLeft
+	{
+			padding-left: 6.5rem;
+	}
+	
+	.p-addingRight
+	{
+		padding-right: 6.5rem;
+	}
+}

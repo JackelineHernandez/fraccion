@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="19px" viewBox="0 0 18 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>arrowRightIco</title>
+    <desc>Created with Sketch.</desc>
+    <g id="arrowRightIco" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(9.000000, 9.500000) scale(-1, 1) translate(-9.000000, -9.500000) " stroke="#FFFFFF" stroke-width="2">
+            <polyline id="Path-6" points="9.86132812 0.984375 0.757562758 10.5439453 9.86132812 18.5950708"></polyline>
+            <path d="M1.5,10.5 L17.5,10.5" id="Line-4"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,269 @@
+
+.fondo{
+  float: left;
+  padding: 0;
+}
+
+.carousel-item-proyecto{
+  height: 25rem;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+.header{
+  position: absolute;
+  padding: 0;
+  font-family: Gotham-Bold;
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  height: 100%;
+}
+
+.proyectoNombre, .simulador{
+  margin: 1rem 0;
+  font-family: Gotham-Bold;
+  color: #0B3861; 
+}
+
+.accordion div div h5 button{
+  font-family: Gotham-Bold;
+  color: #0B3861; 
+}
+
+.accordion{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.card-header{
+  background-color: white;
+  height: 2.5rem;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.headerActive{
+  background-color: #003a5d !important;
+}
+
+.headerActive>h5>button{
+  color: white !important;
+}
+
+.carDescripcion{
+  margin-bottom: 1rem;
+}
+
+.contenido>div{
+  position: inherit; 
+}
+
+.descripcionLg{
+  margin: 1rem 0;
+  min-height: 15rem;
+}
+
+.descripcionLg>p{
+  margin: 2rem 0;
+}
+
+.filaCompartir{
+  margin: 2rem 0;
+}
+
+.compartir{
+  color:#0B3861;
+  font-size:1.2rem;
+}
+
+.filaVolver{
+  margin: 2rem 0;
+}
+
+.itemProyectoDetalle{
+  border-radius: 1rem;
+  border: 1px solid #0B3861;
+  margin-bottom: 3rem;
+}
+
+.botonesFlotante{
+  position: sticky; 
+  bottom: 0px;
+}
+
+.botonesFlotante>div{
+  padding: 0;
+}
+
+.white-btn{
+  background-color: white;
+  color: #003a5d;
+  border: 2px solid #003a5d !important;
+  border-radius: 1rem 1rem 0 0;
+  height: 3.5rem;
+  width: 100%;
+  padding: 0;
+  font-family: Gotham-Bold;
+}
+
+.blue-btn{
+  /*min-width: auto;
+  width: 100%;*/
+  letter-spacing: 0.5px;
+}
+.white-btn>p:first-child{
+  font-size: 1.5rem;
+  padding: 0;
+}
+
+.white-btn>p:last-child{
+  margin-top: -.5rem;
+}
+
+.white-btn>p{
+  margin: 0;
+}
+
+.info{
+  position: absolute;
+  top:20%;
+}
+.info>div{
+  width: 80%;
+}
+
+.nav-tabs .nav-link.active {
+  border-color: #003a5d;
+  background-color: #003a5d;
+  color: white;
+}
+
+.nav-tabs .nav-link {
+
+  border: 2px solid #003a5d;
+  border-top-left-radius: .7rem;
+  border-top-right-radius: .7rem;
+}
+
+.nav-tabs {
+  border-bottom: 2px solid #003a5d;
+}
+
+.tab-content{
+  border: 2px solid #003a5d;
+  border-top: none;
+  padding-bottom: 2rem;
+}
+
+#map-container, #map-container-desktop {
+  margin: 4vh auto;
+  width: 100%;
+  min-height: 35rem;
+  height: 70%;
+}
+
+#map, #map-desktop {
+  width: 100%;
+  height: 100%;
+}
+
+#grillaProyectos{
+  padding: 1.5rem 0;
+}
+
+@media (min-width: 992px) {
+  .proyectoNombre{
+    margin-top: 5rem;
+  }
+  .filaContenido{
+    padding: 0 5rem;
+  }
+
+  .filaCompartir{
+    margin: 3rem 0;
+  }
+  .itemProyectoDetalle{
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+/*.filaGrilla{
+  margin-top:0;
+}
+
+.itemProyecto{
+  border-radius: 1rem 1rem 0 0;
+  border: 1px solid #0B3861;
+  border-bottom: none;
+  margin-bottom: 3rem;
+}
+
+.proyectoTitulo{
+  font-family: Gotham-Bold;
+  color: #003a5d;
+  min-height: 3rem;
+}
+
+.plazoInversion{
+  color: #003a5d;
+  font-size: .8rem;
+  padding: 0 .5rem;
+  border-left: 1px solid grey;
+}
+
+.plazoInversion h6{
+  font-family: Gotham-Bold;
+}*/
+
+
+
+
+
+
+
+
+.proyectInfo{
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.fila1{
+  padding-top: 1rem !important;
+  padding-bottom: 1rem;
+  background-color: #00C4B3;
+  color: white;
+}
+.fila2{
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  background: #D8D8D8;
+}
+.fila3{
+  padding-top: 0.5rem !important;
+  padding-bottom: 0;
+}
+.fila3 span{
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem;
+  font-size: 0.8rem;
+}
+.progress-bar{
+  background-color: #00C4B3;
+}
+
+.simulador-btn{
+  margin: 1rem;
+  width: 100%;
+  background-color: rgb(0, 51, 102);
+  border-radius: 0;
+  min-height: 4rem;
+  min-width: 30%;
+  border: 1px solid rgb(0, 255, 255);
+  font-weight: bold;
+}
+

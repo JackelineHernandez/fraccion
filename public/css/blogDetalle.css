@@ -1,0 +1,15 @@
+.header{
+    background-image: none;
+    background-color:#0B3861 !important;
+    padding: 0;
+    font-family: Gotham-Bold;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    color: white;
+    min-height: 1rem !important;
+  }
+
+.logo{
+    background-image: url("../images/FraccionLogoNegativo.png");
+    background-color: #0B3861 !important;
+}

@@ -1,0 +1,38 @@
+.header{
+  background-image: url('../images/bogota.png');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:cover;
+  padding: 0;
+  font-family: Gotham-Bold;
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  color: white;
+}
+
+.filtro{
+  padding-bottom: 2rem;
+}
+
+.proyectoButton{
+  padding: 0;
+}
+
+.proyectoButton a{
+  width: 100%;
+}
+
+
+@media (min-width: 992px) {
+  .filtro, #grillaProyectos{
+    margin: 0 3rem;
+  }
+  .proyectoButton{
+    margin-bottom: 5rem;
+  }
+  
+  .itemProyecto, .blue-btn{
+    width: 90%;
+    margin-left: 5%;
+  }
+}

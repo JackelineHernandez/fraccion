@@ -1,0 +1,29 @@
+#grillaProyectos img{
+  border-radius: 1rem;
+  max-height: 13.5rem;
+}
+
+.filaGrilla{
+  margin-top:0;
+}
+
+.itemProyecto{
+  border-radius: 1rem 1rem 0 0;
+  border: 1px solid #0B3861;
+  border-bottom: none;
+  margin-bottom: 3rem;
+}
+
+.proyectoTitulo{
+  font-family: Gotham-Bold;
+  color: #003a5d;
+  min-height: 3rem;
+}
+
+@media (min-width: 992px) {
+  .itemProyecto{
+    border-radius: 1rem;
+    border: 1px solid #0B3861;
+    margin-bottom: 1rem;
+  }
+}

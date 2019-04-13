@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="71px" height="47px" viewBox="0 0 71 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME-DESK" transform="translate(-153.000000, -1100.000000)">
+            <g id="BENEFICIOS" transform="translate(146.000000, 800.000000)">
+                <g id="Group-9" transform="translate(8.000000, 301.000000)">
+                    <g id="Group-7">
+                        <polygon id="Rectangle" fill="#FFBF00" points="4.87011719 -2.48689958e-14 63.1430664 -2.48689958e-14 63.1430664 36 43.0817871 36 40.013916 40 29.0925293 40 25.4665527 36 4.87011719 36"></polygon>
+                        <path d="M8.61968552,45 L34.5565899,45 L34.4434585,45 L60.3803629,45 C70.6355526,45 68.8869171,36 68.8869171,36 L42.2842458,36 C42.2842458,36 41.5841755,39.8515349 38.6438803,39.8515349 L34.4434585,39.8515349 L30.2430368,39.8515349 C27.3027415,39.8515349 26.6026712,36 26.6026712,36 L0,36 L0.11313136,36 C0.11313136,36 -1.63550422,45 8.61968552,45" id="Stroke-1" stroke="#003A5D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M64,36 L64,3.13636364 C64,3.13636364 64,0 60.7787265,0 L33.9717088,0 L34.0282912,0 L7.22127348,0 C4,0 4,3.13636364 4,3.13636364 L4,36" id="Stroke-3" stroke="#003A5D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <polyline id="Stroke-5" stroke="#003A5D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="58 36 58 7 33.971516 7 34.028484 7 10 7 10 36"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

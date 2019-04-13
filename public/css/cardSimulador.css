@@ -1,0 +1,124 @@
+
+.cardSimulador{
+    border:none;
+    margin-top: 3rem;
+}
+.cardSimulador>div{
+    padding: 0;
+}
+
+.simuladorLineaDesktop{
+    margin-top: 3rem;
+}
+.simuladorValue{
+  font-size: 1.6rem;
+  color: #41a4e0;
+  margin-left: 3rem;
+}
+
+.simuladorText1{
+  font-size: 1.2rem;
+  color: #41a4e0;
+  font-family: Gotham-Bold;
+}
+
+.simuladorText2{
+  font-size: 1.2rem;
+  color: #0B3861;
+  font-family: Gotham-Bold;
+  padding: 0;
+}
+
+.simuladorInput{
+  border: 1px solid #41a4e0;
+}
+
+.simuladorInputGroup{
+  margin-top: 2rem;
+  padding: 0 2rem;
+}
+
+.tablaR{
+  border: 1px solid #41a4e0; 
+  border-radius: 2rem;
+  margin: 1rem;
+}
+.tablaR>div{
+  padding: .5rem;
+}
+.tablaR>div:first-child{
+  border-right: 1px solid #41a4e0; 
+}
+
+.tablaR>div>p{
+  margin-bottom: 0;
+  font-size:.8rem;
+}
+
+.tablaR>div:first-child>p:last-child{
+  color:#2CBE3E;
+  font-family: Gotham-Bold;
+  font-size:1.5rem;
+  margin-top: -.6rem;
+}
+
+.tablaR>div:last-child>p:last-child{
+  color:#41a4e0;
+  font-family: Gotham-Bold;
+  font-size:1.5rem;
+  margin-top: -.6rem;
+}
+
+.resultado>div{
+  margin-left: 1rem;
+}
+
+.resultado>div>div:first-child{
+  color:#41a4e0;
+  font-family: Gotham-Bold;
+  font-size:1.5rem;
+  padding: 0;
+}
+
+.resultado>div>div:last-child{
+  color:#0B3861;
+  font-family: Gotham-Bold;
+  font-size:2.3rem;
+  padding: 0;
+}
+
+
+@media (min-width: 992px) {
+
+    .cardSimulador{
+        border:1px solid #003a5d;
+        border-radius: 1rem;
+        margin-top: 0;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .proyectoButton{
+        margin-top: .8rem;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .blue-btn{
+      width: 100%;
+    }
+
+    .simuladorInputGroup{
+        margin-top: 0rem;
+      }
+    
+    .tablaR{
+        margin: 0 1rem;
+    }
+
+    .resultado{
+        margin-top: 1rem;
+       
+    }
+    
+}

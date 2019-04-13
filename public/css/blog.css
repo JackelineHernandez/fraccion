@@ -1,0 +1,81 @@
+.firstNotice a{
+    color: white;
+}
+.header{
+    background-image: url('../images/heroBlog.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    padding: 0;
+    font-family: Gotham-Bold;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    color: white;
+    min-height: 20rem;
+  }
+
+.firstNotice, .notice{
+    font-family: Gotham-Light;
+    margin: 2rem 0;
+}
+.firstNotice>div{
+    width: 70%;
+}
+
+.notice{
+    color: #2a2d34;
+    padding: 0 .5rem;
+}
+
+.notice a{
+    color: #2a2d34;
+}
+
+.firstNotice>div>div:first-child>span{
+    border: 1px solid white;
+    padding: .5rem;
+    font-size: .7rem;
+}
+
+.firstNotice>div>div:nth-child(2), .notice>div>div:nth-child(2){
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+}
+
+.firstNotice>div>div:nth-child(3), .notice>div>div:nth-child(4){
+    font-family: Gotham-Bold;
+}
+
+.notice>div>div:first-child>span{
+    border: 1px solid black;
+    padding: .2rem;
+    font-size: .7rem;
+}
+
+.notice>div>div:nth-child(3)>img{
+    width: 100%;
+}
+.notice>div>div:nth-child(6)>span{
+    padding-right: 1rem;
+}
+
+.colNotice, .notice>div{
+    padding: 0;
+}
+
+.recurso{
+    width: 90%;
+}
+
+.tituloNoticia{
+    font-family: Gotham-Bold;
+}
+.descripcionNoticia{
+    padding: 2rem 0;
+}
+
+@media (min-width: 992px) {
+    .contenido{
+        margin: 2rem 6rem;
+    }
+}

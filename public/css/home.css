@@ -1,0 +1,306 @@
+.fondo{
+  float: left;
+  padding: 0;
+}
+
+.carousel-item{
+  height: 40rem;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+#carousel-item1{
+  background-image: url('../images/bogota.png');
+
+}
+
+#carousel-item2{
+  background-image: url('../images/pareja50sTablet.png');
+}
+
+.carousel-control-prev{
+  margin-top: 2.5rem;
+}
+
+.carousel-control-next{
+    margin-top: 4rem;
+    margin-right: 2rem;
+}
+
+.header{
+  position: absolute;
+  padding: 0;
+  font-family: Gotham-Bold;
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  height: 100%;
+}
+
+#principalBlock{
+    margin-top: 5rem;
+    padding: 0;
+}
+
+.principalCard{
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  border: none;
+}
+
+.principalCard-tittle{
+  margin: 0 auto;
+  height: 15rem;
+}
+
+.principalCard-btn-col{
+    margin-top: 7.9rem;
+    padding: 0 0.5rem;
+}
+
+.beneficiosSubTittle{
+  font-family: Gotham-Bold;
+  color: #53ACE3;
+}
+
+.iconoCalculadora, .iconoBeneficios, .iconoTestimonios, .iconoAcademia{
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  min-height: 10rem;
+  font-family: Gotham-Bold;
+  color: #003a5d;
+  font-size: 2rem;
+  padding-left: 7rem;
+  margin-top: 2rem;
+}
+.iconoCalculadora{
+  background-image: url("../svg/calculaIco.svg");
+}
+.iconoBeneficios{
+  background-image: url("../svg/beneficiosIco.svg");
+}
+.iconoAcademia{
+  background-image: url("../svg/academiaIco.svg");
+  padding-left: 4rem !important; 
+}
+.beneficiosVineta{
+  width: 3.5rem;
+}
+.beneficiosItem{
+  min-height: 3.5rem;
+}
+
+.academiaTitle{
+  background-color: #003a5d;
+  padding-bottom: 2rem;
+}
+
+.academiaTitle>div>a{
+  color: white !important;
+}
+
+.academiaTitle>div:nth-child(2){
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.iconoAcademia{
+  color: white;
+}
+
+.colAcademiaArt{
+  background-image: url("../images/heroBlog.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  height: 23rem;
+}
+
+.firstNotice a{
+  color: white;
+}
+
+.firstNotice{
+  font-family: Gotham-Light;
+  margin: 2rem 0;
+  color: white;
+}
+
+.firstNotice>div{
+  width: 70%;
+}
+
+.firstNotice>div>div:first-child>span{
+  border: 1px solid white;
+  padding: .5rem;
+  font-size: .7rem;
+}
+
+.firstNotice>div>div:nth-child(2){
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+}
+
+.firstNotice>div>div:nth-child(3){
+  font-family: Gotham-Bold;
+}
+
+.iconoTestimonios{
+  background-image: url("../svg/testimoniosIco.svg");
+  padding-left: 6rem !important;
+  min-height: 9rem !important;
+}
+#testimoniosBlock, #academiaBlock,#beneficiosBlock{
+    min-height:37rem;
+    background: white;
+    color: #2a2d34;
+    font-family: Gotham-Light;
+}
+#academiaBlock{
+  min-height:auto !important;
+}
+#testimoniosBlock{
+  max-height: 30rem;
+}
+
+.calculadoraForm{
+  margin-top: 2.5rem;
+}
+
+.calculadoraButton{
+    margin-top: 5.7rem;
+    padding: 0 0.5rem;
+}
+
+form div input, #inversion{
+  border: 1px solid #00c4b3 !important;
+  background-color: white !important;
+  border-radius: 0;
+}
+
+form label{
+  font-size: 1.7rem !important;
+}
+
+#calculadoraBlock{
+  min-height: 30rem;
+  background: #F5F5F5;
+  font-family: Gotham-Light;
+}
+
+#aliadosBlock{
+  background: #F5F5F5;
+}
+
+.info{
+    padding-left: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.info h5{
+  font-family: Gotham-Bold;
+}
+.info p{
+  margin-top: 1rem;
+}
+
+.videoFraccion{
+  width: 90%;
+  margin-left: 5%;
+}
+
+.academiaContent, .beneficiosContent{
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.academiaContent>div div>div>img{
+  border-radius: 1rem;
+  box-shadow: 4px 4px 0 4px #003a5d; 
+}
+
+
+.academiaContent>div div>div:nth-child(2){
+  margin-top: 1.5rem;
+}
+
+.academiaContent>div div>div:nth-child(3){
+  margin-top: 1rem;
+}
+
+.academiaContent>div div>div>p{
+  font-family:'Gotham-Bold';
+  color: black;
+}
+
+.aliadosContent>div div{
+  margin-top: 3rem;
+}
+
+
+.aliadosContent>div div>img{
+  width: 7.5rem;
+}
+
+.aliadosContent{
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 992px) {
+  .principalCard{
+    width: 30rem;
+  }
+
+  .principalCard-btn{
+    background-color: rgba(0, 196, 179, 0.2);
+    border-radius: 1rem;
+    min-height: 3.5rem;
+    border: 1px solid #00c4b3;
+  }
+
+  .carousel-item{
+    height: 41rem;
+  }
+
+  .carousel-control-prev{
+    margin-top: 0;
+  }
+
+  .carousel-control-next{
+      margin-top: 0;
+      margin-right: 0;
+  }
+
+  .calculadoraTitle, .beneficiosTitle, .testimoniosTittle{
+    padding-left: 6.5rem;
+  }
+
+  .calculadoraText{
+    padding-left: 6.5rem;
+    font-family:'Gotham-Bold';
+    color: black;
+  }
+
+  .beneficiosContent{
+    padding: 0 5rem;
+    padding-bottom: 2rem;
+  }
+
+  .aliadosContent{
+    padding: 3rem 9rem;
+  }
+
+  .aliadosContent div{
+    margin-bottom: 2rem;
+  }
+
+  #calculadoraBlock, #testimoniosBlock, #beneficiosBlock{
+      min-height:39rem;
+  }
+
+  .iconoAcademia{
+    padding-left: 0 !important;
+  }
+
+}

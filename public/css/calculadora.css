@@ -1,0 +1,80 @@
+.container-fluid{
+    background: #F5F5F5;
+  }
+
+.header{
+    background-image: none;
+    background-color:#0B3861 !important;
+    padding: 0;
+    font-family: Gotham-Bold;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    color: white;
+    min-height: 1rem !important;
+  }
+
+  .logo{
+    background-image: url("../images/FraccionLogoNegativo.png");
+    background-color: #0B3861 !important;
+}
+
+.paddingFile
+{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .iconoCalculadora{
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    min-height: 10rem;
+    font-family: Gotham-Bold;
+    color: #003a5d;
+    font-size: 2rem;
+    padding-left: 7rem;
+    margin-top: 2rem;
+  }
+  .iconoCalculadora{
+    background-image: url("../svg/calculaIco.svg");
+  }
+
+
+  h5{
+    font-family: Gotham-Bold;
+    color: #41a4e0;
+  }
+  .group1, .group2, .group3, .group4{
+      padding: 2rem 0;
+      font-family: Gotham-Light !important;
+  }
+
+  input[type='text'], input[type='email'], select{
+    height: 3.5rem !important;
+    border-radius: 0px !important;
+    border: 1px solid #41a4e0 !important;
+    font-family: Gotham-Light !important;
+    color: #0B3861;
+}
+
+.label-list {
+    margin-bottom: .8rem !important;
+}
+
+.calculadoraButton{
+    margin-top: 3rem;
+    padding: 0 0.5rem;
+}
+
+.blue-btn{
+    border-radius: 1rem !important;
+}
+
+@media (min-width: 992px) {
+    
+.paddingFile
+{
+    padding-left: 6.5rem;
+    padding-right: 6.5rem;
+  }
+}
